@@ -4,6 +4,7 @@ date: 2025-03-03
 lang: en
 description: The coloring problem in modern programming, and a proposal of a new approach
 duration: 18min
+image: https://pbs.twimg.com/media/GntB18IXoAAMs40?format=jpg&name=large
 ---
 
 ## The Coloring Problem
