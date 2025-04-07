@@ -31,7 +31,7 @@ const { y: scroll } = useWindowScroll()
       :class="scroll > 300 ? 'op30' : 'op0! pointer-events-none'"
       @click="toTop()"
     >
-      <div i-ri-arrow-up-line />
+    <div i-ri-arrow-up-line />
     </button>
     <nav class="nav">
       <div class="spacer" />

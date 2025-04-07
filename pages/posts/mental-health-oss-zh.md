@@ -8,7 +8,11 @@ duration: 25min
 
 [[toc]]
 
-> [English Version](/posts/mental-health-oss) ｜ 感谢 {@xxholly32} {@yyyanghj} 协助翻译
+> [English Version](/posts/mental-health-oss) ｜ 感谢 {@xxholly32} {@yyyanghj} {@lsyzc}协助翻译
+
+<div i-ph-anchor-simple-thin />
+<div i-bx-bxs-dog/>
+<div i-bx-bxs-dog/>
 
 > **省流**: 我目前状态良好，并没有要离开开源。尽管还有一些压力，但仍然在尝试并改进现状。感谢关心！
 
