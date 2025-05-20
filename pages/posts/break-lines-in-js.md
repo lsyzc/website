@@ -25,4 +25,3 @@ console.log(lines)
 // ['A quick brown', 'fox jumps over', 'the lazy dog.']
 ```
 
-You probably see a few edge cases already. But come on, it's just one line of code :P
