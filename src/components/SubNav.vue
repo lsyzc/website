@@ -25,13 +25,13 @@ const route = useRoute()
       <RouterLink to="/podcasts" class="!border-none" :class="route.path === '/podcasts' ? activeStyle : inactiveStyle">
         Podcasts
       </RouterLink>
-      <RouterLink to="/streams" class="!border-none" :class="route.path === '/streams' ? activeStyle : inactiveStyle">
+      <!-- <RouterLink to="/streams" class="!border-none" :class="route.path === '/streams' ? activeStyle : inactiveStyle">
         Streams
-      </RouterLink>
+      </RouterLink> -->
       <RouterLink to="/notes" class="!border-none" :class="route.path === '/notes' ? activeStyle : inactiveStyle">
         Notes
       </RouterLink>
-      <RouterLink to="/leetcode" class="!border-none" :class="route.path === '/notes' ? activeStyle : inactiveStyle">
+      <RouterLink to="/leetcode" class="!border-none" :class="route.path === '/leetcode' ? activeStyle : inactiveStyle">
         LeetCode
       </RouterLink>
     </div>

@@ -11,7 +11,7 @@ const props = defineProps<{
 
 const router = useRouter()
 const routes: Post[] = router.getRoutes()
-  .filter(i => i.path.startsWith('/posts') && i.meta.frontmatter.date && !i.meta.frontmatter.draft)
+  .filter(i => i.path.startsWith('/posts') && !i.path.startsWith('/posts/for_ref') && i.meta.frontmatter.date && !i.meta.frontmatter.draft)// 停止对/posts/for_ref 下markdown 文件的扫描，这里放了原作者的一些文章用作参考
   .filter(i => !i.path.endsWith('.html') && (i.meta.frontmatter.type || 'blog').split('+').includes(props.type))
   .map(i => ({
     path: i.meta.frontmatter.redirect || i.path,
