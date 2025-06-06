@@ -3,7 +3,7 @@
 const raw = [
   { url: 'https://pic1.imgdb.cn/item/615c528f2ab3f51d91a62061.jpg', text: 'Image 1 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528f2ab3f51d91a62026.jpg', text: 'Image 2 description' },
-  { url: 'https://pic1.imgdb.cn/item/615c528f2ab3f51d91a61ff9.jpg', text: 'Image 3 description' },
+  //{ url: 'https://pic1.imgdb.cn/item/615c528f2ab3f51d91a61ff9.jpg', text: 'Image 3 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528f2ab3f51d91a61fd2.jpg', text: 'Image 4 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528f2ab3f51d91a61fad.jpg', text: 'Image 5 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528f2ab3f51d91a61f62.jpg', text: 'Image 7 description' },
@@ -12,7 +12,7 @@ const raw = [
   { url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61ef4.jpg', text: 'Image 10 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61ede.jpg', text: 'Image 11 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61ec3.jpg', text: 'Image 12 description' },
-  { url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61ea1.jpg', text: 'Image 13 description' },
+  //{ url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61ea1.jpg', text: 'Image 13 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61e8f.jpg', text: 'Image 14 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61e7f.jpg', text: 'Image 15 description' },
   { url: 'https://pic1.imgdb.cn/item/615c528e2ab3f51d91a61e6d.jpg', text: 'Image 16 description' },

@@ -26,6 +26,7 @@ import { defineConfig } from 'vite'
 import Inspect from 'vite-plugin-inspect'
 import Exclude from 'vite-plugin-optimize-exclude'
 import SVG from 'vite-svg-loader'
+import markdownItKatex from '@traptitech/markdown-it-katex'
 import { slugify } from './scripts/slugify'
 
 const promises: Promise<any>[] = []
@@ -124,6 +125,7 @@ export default defineConfig({
           slugify,
           containerHeaderHtml: '<div class="table-of-contents-anchor"><div class="i-ri-menu-2-fill" /></div>',
         })
+        
 
         md.use(MarkdownItMagicLink, {
           linksMap: {
@@ -165,6 +167,7 @@ export default defineConfig({
         })
 
         md.use(GitHubAlerts)
+        md.use(markdownItKatex)
       },
       frontmatterPreprocess(frontmatter, options, id, defaults) {
         (() => {

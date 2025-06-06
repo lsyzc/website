@@ -1,12 +1,18 @@
 <script setup lang="ts">
+
+
 function toTop() {
   window.scrollTo({
     top: 0,
     behavior: 'smooth',
   })
+
 }
 
 const { y: scroll } = useWindowScroll()
+
+
+
 </script>
 
 <template>
@@ -40,26 +46,30 @@ const { y: scroll } = useWindowScroll()
           <span class="lt-md:hidden">Blog</span>
           <div i-ri-article-line md:hidden />
         </RouterLink>
-        <RouterLink to="/projects" title="Projects">
+        <!-- <RouterLink to="/projects" title="Projects">
           <span class="lt-md:hidden">Projects</span>
           <div i-ri-lightbulb-line class="md:hidden" />
         </RouterLink>
         <RouterLink to="/talks" class="lt-md:hidden" title="Talks">
           Talks
-        </RouterLink>
+        </RouterLink> -->
         <!-- <RouterLink to="/sponsors-list" title="Sponsors">
           <span class="lt-md:hidden">Sponsors</span>
           <div i-ri-heart-line class="md:hidden" />
         </RouterLink> -->
-        <RouterLink to="/podcasts" class="lt-md:hidden" title="Podcasts">
+        <!-- <RouterLink to="/podcasts" class="lt-md:hidden" title="Podcasts">
           <div i-ri-mic-line />
-        </RouterLink>
+        </RouterLink> -->
         <RouterLink to="/photos" title="Photos">
           <div i-ri-camera-3-line />
         </RouterLink>
-        <RouterLink to="/demos" title="Demos">
-          <div i-ri-screenshot-line />
+        
+        <RouterLink to="/leetcode" title="LeetCode">
+          <div i-simple-icons-leetcode />
         </RouterLink>
+        <!-- <RouterLink to="/demos" title="Demos">
+          <div i-ri-screenshot-line />
+        </RouterLink> -->
         <!-- <RouterLink to="/chat" title="Let's Chat">
           <div i-ri-chat-1-line />
         </RouterLink> -->

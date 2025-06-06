@@ -14,6 +14,7 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
+    "@traptitech/markdown-it-katex": "^3.6.0",
     "@unhead/vue": "catalog:frontend",
     "@unocss/reset": "catalog:frontend",
     "@vueuse/core": "catalog:frontend",
@@ -21,6 +22,8 @@
     "d3-shape": "catalog:frontend",
     "dayjs": "catalog:frontend",
     "floating-vue": "catalog:frontend",
+    "katex": "^0.16.22",
+    "markdown-it-mathjax3": "^4.3.2",
     "matter-attractors": "catalog:frontend",
     "matter-js": "catalog:frontend",
     "nprogress": "catalog:frontend",

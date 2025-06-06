@@ -1,3 +1,4 @@
+@import "katex/dist/katex.min.css";
 :root {
   --c-bg: #fff;
   --c-scrollbar: #eee;
@@ -223,3 +224,4 @@ html:not(.dark) [img-dark] {
 .fade-leave-to {
   opacity: 0;
 }
+
