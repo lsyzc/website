@@ -95,7 +95,7 @@ print('IoU is {}'.format(iou))
 
 - 当矩形框的坐标形式为xywh时
 
-```Python
+```python
 import numpy as np
 
 # 计算IoU，矩形框的坐标形式为xywh
