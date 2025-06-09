@@ -91,7 +91,7 @@ export default defineConfig({
             dark: 'vitesse-dark',
             light: 'vitesse-light',
           },
-          langs: ['ts', 'python','c','c++','go','shell','js', 'json', 'html', 'css', 'vue', 'md'],
+          langs: ['ts', 'ruby','python','c','c++','go','shell','js', 'json', 'html', 'css', 'vue', 'md'],
           defaultColor: false,
           cssVariablePrefix: '--s-',
           transformers: [
